@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * Created by 兰锦扬 on 2020/08/12.
+ * 测试用6666666666666666666666666666
  */
 @RestController
 @RequestMapping("/good2s")
