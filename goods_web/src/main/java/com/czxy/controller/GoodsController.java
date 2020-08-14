@@ -25,10 +25,9 @@ public class GoodsController {
      */
     @GetMapping("/selectAllCategory")
     public @ResponseBody List<Category> selectAllCategory(){
-        //查询
-        List<Category> categories = categoryService.selectAll();
-        //返回数据
-        return categories;
+        // 兰锦扬修改位置1
+        // 返回数据
+        return categoryService.selectAll();
     }
 
     @Resource

@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * Created by 兰锦扬 on 2020/08/12.
- * 测试用6666666666666666666666666666
+ * 兰锦扬修改位置3
  */
 @RestController
 @RequestMapping("/good2s")
@@ -25,10 +25,9 @@ public class TestGoodsController {
      */
     @GetMapping("/selectAllCategory")
     public List<Category> selectAllCategory(){
-        //查询
-        List<Category> categories = categoryService.selectAll();
-        //返回数据
-        return categories;
+        // 兰锦扬修改位置2
+        // 返回数据
+        return categoryService.selectAll();
     }
 
 }
